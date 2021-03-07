@@ -22,3 +22,5 @@ p.s. Во всём коде дополнительно были сделаны �
 - Источники
 
 ## Введение
+
+![alt text](https://github.com/Aettio/DS_Project_IMDb/blob/main/Images/Titanic_picture.jpg)
