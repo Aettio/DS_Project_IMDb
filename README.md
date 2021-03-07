@@ -23,4 +23,4 @@ p.s. Во всём коде дополнительно были сделаны �
 
 ## Введение
 
-![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/Titanic_picture.jpg)
+![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/Spotify_wallpaper.jpg)
