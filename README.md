@@ -1,4 +1,4 @@
-# Data science | Project : "IMDb"
+# Data science | Project : "Spotify"
 
 ## Гайд по проекту
 
