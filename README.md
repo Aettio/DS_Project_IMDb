@@ -24,3 +24,16 @@ p.s. Во всём коде дополнительно были сделаны �
 ## Введение
 
 ![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/Spotify_intro.jpg)
+
+## Задача
+
+
+## EDA (Exploratory Data Analysis)
+
+### Корреляции
+
+## Итог
+
+## Источники
+
+- Датасет : https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks
