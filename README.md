@@ -1,1 +1,1 @@
-# Data science | Project : "IMDb Dataset"
+# Data science | Project : "IMDb"
