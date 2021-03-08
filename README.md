@@ -34,6 +34,14 @@ p.s. Во всём коде дополнительно были сделаны �
 
 ![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/Корреляции.png)
 
+### Самые популярные десятилетие
+
+![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/Популярность_по_декадам.png)
+
+### Самая популярная песня
+
+![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/Самая_популярная_песня.png)
+
 ## Итог
 
 ## Источники
