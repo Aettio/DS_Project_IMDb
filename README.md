@@ -42,6 +42,10 @@ p.s. Во всём коде дополнительно были сделаны �
 
 ![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/Самая_популярная_песня.png)
 
+### Особенности треков
+
+![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/Особенности.jpeg)
+
 ## Итог
 
 ## Источники
