@@ -39,3 +39,4 @@ p.s. Во всём коде дополнительно были сделаны �
 ## Источники
 
 - Датасет : https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks
+- xgboost документация https://xgboost.readthedocs.io/en/latest/python/python_api.html#module-xgboost.core
