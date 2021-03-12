@@ -49,9 +49,15 @@ dec_graph.set_xlabel('Популярность')
 
 # 
 
-sound_features = ['acousticness', 'danceability', 'energy', 'instrumentalness', 'liveness', 'valence']
+sound_features = ['acousticness', 'danceability', 'energy','speechiness', 'liveness']
 fig = px.line(df_year, x = 'year', y = sound_features)
 fig.update_layout(title='Особенности треков по годам')
 
-fig.write_image("images/fig1.jpeg", width=1000,height=600, scale=2)
+fig.write_image("images/fig.jpeg", width=1000,height=600, scale=2)
 fig.show()
+
+# 
+
+fig1 = px.line(df_year, x = 'year', y = 'loudness')
+fig.write_image("images/fig1.jpeg", width=1000,height=600, scale=2)
+fig1.show()
