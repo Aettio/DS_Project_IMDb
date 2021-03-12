@@ -46,7 +46,7 @@ p.s. Во всём коде дополнительно были сделаны �
 
 - Заметка (Проверить другие особенности по корреляции с year)
 
-![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/Особенности.jpeg)
+![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/Особенности_по_year.jpeg)
 
 ## Итог
 
