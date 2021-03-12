@@ -50,7 +50,7 @@ p.s. Во всём коде дополнительно были сделаны �
 
 ## Loudness
 
-![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/loudness.jpeg)
+![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/loudness_by_year.jpeg)
 
 ## Итог
 
