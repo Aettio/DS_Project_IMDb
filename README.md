@@ -48,6 +48,10 @@ p.s. Во всём коде дополнительно были сделаны �
 
 ![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/Особенности_по_year.jpeg)
 
+## Loudness
+
+![alt text](https://github.com/Aettio/DS_Project_Spotify/blob/main/Images/loudness.jpeg)
+
 ## Итог
 
 ## Источники
