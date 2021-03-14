@@ -15,22 +15,12 @@ df_w_genres = pd.read_csv("data_w_genres.csv")
 
 df.head()
 
-# Корреляции
+# Корреляции:
 
 sns.set(rc={"figure.figsize":(16,12)})
 sns.heatmap(df.corr(), annot = True, cmap = 'viridis', mask = np.triu(df.corr()), annot_kws = {"size":15})
 
-#
-
-sns.set(rc={"figure.figsize":(12,8)})
-g_pn = df.groupby("name")['popularity'].sum().sort_values(ascending=False)[:20]
-axis = sns.barplot(x = g_pn.index, y = g_pn, palette = 'viridis')
-axis.set_title('Самые популярные треки')
-axis.set_ylabel('Популярность')
-axis.set_xlabel('Трек')
-plt.xticks(rotation = 90)
-
-# 
+# Самые популярные десятилетия:
 
 def get_decade(year):
     first_year = int(year/10)*10
@@ -47,7 +37,18 @@ dec_graph.set_title('Самые популярные десятилетия')
 dec_graph.set_ylabel('Десятилетие')
 dec_graph.set_xlabel('Популярность')
 
-# 
+# Самые популярные треки:
+
+sns.set(rc={"figure.figsize":(12,8)})
+g_pn = df.groupby("name")['popularity'].sum().sort_values(ascending=False)[:20]
+axis = sns.barplot(x = g_pn.index, y = g_pn, palette = 'viridis')
+axis.set_title('Самые популярные треки')
+axis.set_ylabel('Популярность')
+axis.set_xlabel('Трек')
+plt.xticks(rotation = 90)
+
+
+# Особенности треков по годам:
 
 sound_features = ['acousticness', 'danceability', 'energy','speechiness', 'liveness']
 fig = px.line(df_year, x = 'year', y = sound_features)
@@ -56,7 +57,7 @@ fig.update_layout(title='Особенности треков по годам')
 fig.write_image("images/fig.jpeg", width=1000,height=600, scale=2)
 fig.show()
 
-# 
+# Loudness
 
 fig1 = px.line(df_year, x = 'year', y = 'loudness')
 fig.write_image("images/fig1.jpeg", width=1000,height=600, scale=2)
