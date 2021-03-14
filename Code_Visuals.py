@@ -46,7 +46,6 @@ axis.set_ylabel('Популярность')
 axis.set_xlabel('Трек')
 plt.xticks(rotation = 90)
 
-
 # Особенности треков по годам:
 
 sound_features = ['acousticness', 'danceability', 'energy','speechiness', 'liveness']
