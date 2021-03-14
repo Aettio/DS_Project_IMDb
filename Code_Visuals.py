@@ -27,7 +27,6 @@ def get_decade(year):
     decade = str(first_year)+"s"
     return decade
   
-  
 sns.set(rc={"figure.figsize":(10,8)})
   
 df["decade"] = df["year"].apply(get_decade)
