@@ -88,3 +88,5 @@ Spotify — интернет-сервис потокового аудио (ст�
 
 - Датасет : https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks
 - xgboost документация https://xgboost.readthedocs.io/en/latest/python/python_api.html#module-xgboost.core
+- Seaborn документация : https://seaborn.pydata.org/introduction.html
+- Pandas документация : https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
