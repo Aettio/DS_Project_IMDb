@@ -1,6 +1,6 @@
 import pandas as pd
 from xgboost import XGBRegressor
-from sklearn.model_selection import cross_val_score, train_test_split, GridSearchCV
+from sklearn.model_selection import cross_val_score, train_test_split
 
 df = pd.read_csv("data.csv")
 
